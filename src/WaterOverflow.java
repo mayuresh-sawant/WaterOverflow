@@ -17,7 +17,7 @@ public class WaterOverflow
 	 */
 	public int fillWaterInGlasses(double capacity, double totalWater) {
 		
-		if(capacity <= 0){
+		if(capacity <= 0 || totalWater <= 0){
 		   return 0;
 		}
 		

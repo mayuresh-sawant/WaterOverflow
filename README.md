@@ -1,13 +1,12 @@
 
 Assumptions and Explanations:
 
-1) I am deriving the solution based on Pascal's triangle
-2) Using 2 dimensional array for simplicity purpose rather than complexity( there will be some memory loss)
-3) Assuming maximum size of the 2-D array to 100
-4) Created a method by the name fillWaterInGlasses() which will take capacity of each glass and total water being poured as parameters
+1) Using 2 dimensional array for simplicity purpose rather than complexity( there will be some memory loss)
+2) Assuming maximum size of the 2-D array to 100
+3) Created a method by the name fillWaterInGlasses() which will take capacity of each glass and total water being poured as parameters
     and will return the total number of levels till which we will have water in the glasses
-5) Added some driver code to trigger the function
-6) Added basic JUnit test for testing the function with different inputs
+4) Added some driver code to trigger the function
+5) Added basic JUnit test for testing the function with different inputs
 
 Test the code:
 

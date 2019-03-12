@@ -17,6 +17,10 @@ public class WaterOverflow
 	 */
 	public int fillWaterInGlasses(double capacity, double totalWater) {
 		
+		if(capacity <= 0){
+		   return 0;
+		}
+		
 		// pour all the water initially in the top glass
 		glasses[0][0] = totalWater;
 		int level = 0;
